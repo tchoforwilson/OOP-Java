@@ -1,6 +1,9 @@
 package com.codewithdev;
 
 public class MortgageCalculator {
+    public final static byte PERCENT = 100;
+    public final static byte MONTHS_IN_YEAR = 12;
+
     private int principal;
     private float annualInterest;
     private byte years;
