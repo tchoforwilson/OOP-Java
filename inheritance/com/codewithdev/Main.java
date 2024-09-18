@@ -2,6 +2,8 @@ package com.codewithdev;
 
 public class Main {
     public static void main(String[] args) {
-        var box1 = new TextBox();
+        var textBox = new TextBox();
+        textBox.setText("Hello, world!");
+        System.out.println(textBox);
     }
 }
